@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7fafc;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e2a3a;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: 600;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+
+        .container {
+            width: 85%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        img.profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+            border: 4px solid #1e2a3a;
+        }
+
+        h2 {
+            color: #1e2a3a;
+            border-bottom: 2px solid #f4a261;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+            font-weight: 600;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #e1e1e1;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            font-size: 1em;
+            font-weight: 400;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            color: #555;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 1em;
+        }
+
+        ul li {
+            padding-left: 18px;
+            position: relative;
+            font-weight: 400;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #f4a261;
+        }
+
+        
+        .contact-info {
+            margin-top: 30px;
+        }
+
+        .contact-info a {
+            color: #1e2a3a;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #f4a261;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1e2a3a;
+            color: white;
+            font-size: 0.9em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ayesha Rasheed</h1>
+    <p>Creative Front-End Developer</p>
+</header>
+
+<div class="container">
+    <img src="icon-5359554_640.webp" alt="Ayesha Rasheed" class="profile-picture">
+
+    <section>
+        <h2>Work Experience</h2>
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>SAMZ Technology</td>
+                <td>Front-End Internship</td>
+                <td>Mar 2025 - Present</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control (Git)</li>
+            <li>MS Excel</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>Intermediate in Commerce</p>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="rashidayesha029@gmail.com">rashidayesha029@gmail.com</a></p>
+        <p>Phone: <a href="+923222541905">+923222541905</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2025 Ayesha Rasheed</p>
+</footer>
+
+</body>
+</html>
